@@ -1,0 +1,154 @@
+/* Estilos para o cabeçalho */
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #333; /* Cor do texto */
+}
+
+/* Estilos para o rodapé */
+footer {
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    bottom: 0; /* Alinha o rodapé na parte inferior */
+    width: 100%; /* Define a largura para ocupar toda a largura da página */
+    background-color: #f2f2f2; /* Cor de fundo do rodapé */
+    padding: 20px 0; /* Espaçamento interno do rodapé */
+    text-align: center;
+}
+
+footer h1 {
+    font-family: "Poppins", sans-serif;
+    color: #333; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    margin: 0; /* Remove margens padrão */
+}
+
+.button {
+    font-family: "Poppins", sans-serif;
+    display: inline-block; /* Exibir como bloco */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+
+/* Estilos para o header */
+header {
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}
+
+/* Estilos para o título dentro do header */
+header h1 {
+    color: #fff;
+    margin: 0; /* Remover margens */
+    font-size: 24px; /* Tamanho da fonte */
+}
+
+/* Estilos adicionais para o título */
+.site-title {
+    text-transform: uppercase; /* Transformar texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+}
+
+/* Estilos para o formulário */
+form {
+    font-family: "Poppins", sans-serif;
+    width: 80%; /* Largura do formulário */
+    margin: 0 auto; /* Centralizar o formulário */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilos para os rótulos */
+label {
+    font-family: "Poppins", sans-serif;
+    display: block; /* Exibir em bloco para adicionar espaço vertical */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estilos para os campos de entrada */
+input[type="text"] {
+    font-family: "Poppins", sans-serif;
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento inferior */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilos para o botão de envio */
+input[type="submit"] {
+    font-family: "Poppins", sans-serif;
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor do mouse */
+}
+
+/* Estilos adicionais para o botão de envio quando o mouse passa sobre ele */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Alterar a cor de fundo no hover */
+}
+
+/* Estilos para o botão de voltar */
+.back-button {
+    display: inline-block; /* Exibir como bloco */
+    background-image: url('seta.png'); /* Caminho para a imagem da seta */
+    background-size: contain; /* Ajustar o tamanho da imagem */
+    width: 30px; /* Largura do botão */
+    height: 30px; /* Altura do botão */
+    overflow: hidden; /* Ocultar o conteúdo excedente */
+}
+
+/* Estilos adicionais para o botão de voltar no hover */
+.back-button:hover {
+    opacity: 0.7; /* Reduzir a opacidade ao passar o mouse */
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%; /* Define a largura da tabela */
+    border-collapse: collapse; /* Remove a separação entre as células */
+}
+
+/* Estilos para o cabeçalho da tabela */
+thead {
+    background-color: #f2f2f2; /* Cor de fundo do cabeçalho */
+}
+
+/* Estilos para as células do cabeçalho */
+th {
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    border-bottom: 1px solid #ddd; /* Borda inferior das células */
+}
+
+/* Estilos para as células de dados */
+td {
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    border-bottom: 1px solid #ddd; /* Borda inferior das células */
+}
+
+/* Estilos para as linhas pares da tabela */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo das linhas pares */
+}
